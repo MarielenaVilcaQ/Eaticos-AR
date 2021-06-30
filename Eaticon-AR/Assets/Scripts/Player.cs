@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     private World _world;
     private GameManager _gameManager;
+    private AudioSource _audioSource;
     [SerializeField] private GameObject _player;
     public float _speed = 40.0f;
 
@@ -13,6 +14,7 @@ public class Player : MonoBehaviour
     {
         _world = FindObjectOfType<World>();
         _gameManager = FindObjectOfType<GameManager>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     public void AddSpeed(float addSpeed)
@@ -51,6 +53,7 @@ public class Player : MonoBehaviour
     {
         if (other.tag == "Food")
         {
+            _audioSource.Play();
             var food = other.transform.GetComponent<Food>();
             food.StartAnimationDestroy();
             _gameManager.AddPoints(food.value);

@@ -15,11 +15,11 @@ D:/GitHub/Eaticos-AR/Eaticon-AR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54502
+56241
 Successfully changed project path to: D:/GitHub/Eaticos-AR/Eaticon-AR
 D:/GitHub/Eaticos-AR/Eaticon-AR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1078 +35,359 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002653 seconds.
+Registered in 0.002946 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.656 seconds
+- Completed reload, in  1.615 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002418 seconds.
+Registered in 0.002387 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  0.829 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.3 MB.
 System memory in use after: 69.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1882.
-Total: 1.698800 ms (FindLiveObjects: 0.146200 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.440500 ms  DeleteObjects: 0.079400 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1883.
+Total: 1.710200 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.434300 ms  DeleteObjects: 0.096800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bfc51c5222557aa47c55c3d1b82acd') in 0.153058 seconds
-  Import took 0.155326 seconds .
+  path: Assets/Animator
+  artifactKey: Guid(bd7549c982f4bde41913a5cec3291393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator using Guid(bd7549c982f4bde41913a5cec3291393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e814c28cccee0a9d14b2855335e475') in 0.009151 seconds
+  Import took 0.011253 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/HoloUnitySDK/Resources/Font/Font001/Exo-ExtraBold SDF.asset
-  artifactKey: Guid(dc4fc6c44f28f9b4999f3e653e4490b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Font/Font001/Exo-ExtraBold SDF.asset using Guid(dc4fc6c44f28f9b4999f3e653e4490b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccaecf70403c36bd07d4ab90c83021b') in 0.039143 seconds
-  Import took 0.041377 seconds .
+  Time since last request: 66.366083 seconds.
+  path: Assets/Prefabs/Food 1.prefab
+  artifactKey: Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food 1.prefab using Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd6b612c00d7b5826a94eab6adc1902') in 0.077945 seconds
+  Import took 0.080928 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Fonts/Ubuntu-B.ttf
-  artifactKey: Guid(230eb2b36d55f614997358471325b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Ubuntu-B.ttf using Guid(230eb2b36d55f614997358471325b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206d63aa11cacb2226ddb3187390b0b0') in 0.019627 seconds
-  Import took 0.021664 seconds .
+  Time since last request: 5.369000 seconds.
+  path: Assets/Prefabs/DestroyFood.prefab
+  artifactKey: Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DestroyFood.prefab using Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ae66a536970a170fd2c3451b0d3cfd') in 0.028147 seconds
+  Import took 0.031250 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Fonts/Ubuntu-B SDF.asset
-  artifactKey: Guid(74e7228b7cd170a41b05d04005001782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Ubuntu-B SDF.asset using Guid(74e7228b7cd170a41b05d04005001782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8360fe9f4f8fb57b0ebb92cac3e68ce9') in 0.018510 seconds
-  Import took 0.020929 seconds .
+  Time since last request: 234.970402 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(a8b88bd8e45b9e14b9fccc2ec52f6cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(a8b88bd8e45b9e14b9fccc2ec52f6cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40e19ad0dd01e0b874bade92c52b135') in 0.006015 seconds
+  Import took 0.008557 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/HoloUnitySDK/Resources/Materials/WallMaterial.mat
-  artifactKey: Guid(8c324775f83917643b6578b155f60530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Materials/WallMaterial.mat using Guid(8c324775f83917643b6578b155f60530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f08b743737c9588f7a106b0d7946a89') in 0.025075 seconds
-  Import took 0.027171 seconds .
+  Time since last request: 588.442350 seconds.
+  path: Assets/Animations/DestroyFood.controller
+  artifactKey: Guid(11f022f2d91b803438cdfe633e5d0b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DestroyFood.controller using Guid(11f022f2d91b803438cdfe633e5d0b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7d9a9c240d5cd6191fd2f1488fd6bd') in 0.004713 seconds
+  Import took 0.007329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Fonts/Ubuntu-L.ttf
-  artifactKey: Guid(95e66f5250c88564ab69ef941046edb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Ubuntu-L.ttf using Guid(95e66f5250c88564ab69ef941046edb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61eada736116349ddded483df0a99524') in 0.017805 seconds
-  Import took 0.020356 seconds .
+  Time since last request: 0.539536 seconds.
+  path: Assets/Animations/DestroyFood.anim
+  artifactKey: Guid(630063c6b3c82f14dbc398a273cc0d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DestroyFood.anim using Guid(630063c6b3c82f14dbc398a273cc0d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f780ec66f7bc61c6cb6cfe24a2a9a04') in 0.003287 seconds
+  Import took 0.005582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/HoloUnitySDK/Resources/Materials/color_002.mat
-  artifactKey: Guid(3e34856a684ae5e42bb8229e5be5ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Materials/color_002.mat using Guid(3e34856a684ae5e42bb8229e5be5ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6aeef0be1312c537845ac9abd9c6d4') in 0.015220 seconds
-  Import took 0.019165 seconds .
+  Time since last request: 0.003378 seconds.
+  path: Assets/Animations/DestroyFood.anim
+  artifactKey: Guid(630063c6b3c82f14dbc398a273cc0d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DestroyFood.anim using Guid(630063c6b3c82f14dbc398a273cc0d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f780ec66f7bc61c6cb6cfe24a2a9a04') in 0.002080 seconds
+  Import took 0.004329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Fonts/Ubuntu-M SDF.asset
-  artifactKey: Guid(1829705bda82fee4aa9da22c457f1ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Ubuntu-M SDF.asset using Guid(1829705bda82fee4aa9da22c457f1ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99af9539b8e4352c81c7ddc4920d7ea0') in 0.023515 seconds
-  Import took 0.026014 seconds .
+  Time since last request: 17.348798 seconds.
+  path: Assets/Animators/Food.controller
+  artifactKey: Guid(11f022f2d91b803438cdfe633e5d0b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/Food.controller using Guid(11f022f2d91b803438cdfe633e5d0b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b067203586f30c5e0f45de12b946f81') in 0.006258 seconds
+  Import took 0.008626 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/HoloUnitySDK/Resources/Font/Font001/Exo2.0-Bold.otf
-  artifactKey: Guid(38eef78063037bc41a23376dfa11c7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Font/Font001/Exo2.0-Bold.otf using Guid(38eef78063037bc41a23376dfa11c7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b838ef84bfa885f59c40eaea555b02') in 0.025116 seconds
-  Import took 0.027211 seconds .
+  Time since last request: 2.424617 seconds.
+  path: Assets/Prefabs/DestroyFood.prefab
+  artifactKey: Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DestroyFood.prefab using Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2ce0dbc9c80b22249913fac2dda3a2') in 0.012992 seconds
+  Import took 0.015452 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Materials/player.mat
-  artifactKey: Guid(24f489084ddaad14cb3e5b54a1a097bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/player.mat using Guid(24f489084ddaad14cb3e5b54a1a097bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85955443c703677537d47b03166d7ac9') in 0.009859 seconds
-  Import took 0.012093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/4) True Anaglyphs.mat
-  artifactKey: Guid(7ec9ba8b33b03904b83db062e4b4bbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/4) True Anaglyphs.mat using Guid(7ec9ba8b33b03904b83db062e4b4bbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c599ef5b1597a735aba982ba0e1dc63') in 0.009554 seconds
-  Import took 0.011557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/HoloUnitySDK/Resources/Font/Font001/Exo2.0-ExtraLight.otf
-  artifactKey: Guid(994d72dc4c21b5249b69d31062f56917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Font/Font001/Exo2.0-ExtraLight.otf using Guid(994d72dc4c21b5249b69d31062f56917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0e348ba14e3ec4a352b321edd9bbf5') in 0.014929 seconds
-  Import took 0.017497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c06e26e139ea2aedd7ac4fe9f0e693') in 0.018740 seconds
-  Import took 0.021069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/HoloUnitySDK/Resources/Font/Font001/Exo-Light SDF.asset
-  artifactKey: Guid(498be77718a6bd543ad5edfc51a747b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Font/Font001/Exo-Light SDF.asset using Guid(498be77718a6bd543ad5edfc51a747b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1945c5b3b9b3faffbf535da9af273914') in 0.017466 seconds
-  Import took 0.020111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec1587b7129bde4b287cc77833a66ca') in 0.022703 seconds
-  Import took 0.025193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.063116 seconds
-  Import took 0.065485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/5) Color Anaglyphs.mat
-  artifactKey: Guid(aabe8d939185db340baae6ae13cc1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/5) Color Anaglyphs.mat using Guid(aabe8d939185db340baae6ae13cc1dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743875c40b4e57164888c2b3c080bf76') in 0.009691 seconds
-  Import took 0.012094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/1) Half Color Anaglyphs.mat
-  artifactKey: Guid(c90fcef8a5ad20348a358c58147e6c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/1) Half Color Anaglyphs.mat using Guid(c90fcef8a5ad20348a358c58147e6c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf44e8caecc048d1c48ebf6a6782fb38') in 0.015862 seconds
-  Import took 0.017902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823925cd207ca5a26aac12f394941df9') in 0.029527 seconds
-  Import took 0.031860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/HoloUnitySDK/Resources/Font/Font001/Exo2.0-Light.otf
-  artifactKey: Guid(108d37e29f9c174469acbbdcf3a7fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Font/Font001/Exo2.0-Light.otf using Guid(108d37e29f9c174469acbbdcf3a7fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51020fa40f1e61f211b21cf4f7eac57e') in 0.011853 seconds
-  Import took 0.014231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/2) Optimized Anaglyphs 3.mat
-  artifactKey: Guid(0ab6b5e98199db0408c9757c0bf34dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/2) Optimized Anaglyphs 3.mat using Guid(0ab6b5e98199db0408c9757c0bf34dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7dbcc93ccec0351df8f16fa07e8d46') in 0.009021 seconds
-  Import took 0.011038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Materials/food.mat
-  artifactKey: Guid(3b5aad6918208424c9ca29156a208e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/food.mat using Guid(3b5aad6918208424c9ca29156a208e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27793f07f502f29011aab4e11633ab90') in 0.011685 seconds
-  Import took 0.014031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Materials/world.mat
-  artifactKey: Guid(2b3b49186580de04e883274b24b1c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/world.mat using Guid(2b3b49186580de04e883274b24b1c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb99b8a19777be17b2170bd8e67511d6') in 0.015627 seconds
-  Import took 0.018043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Fonts/Ubuntu-M.ttf
-  artifactKey: Guid(da82c1d3770b24440aaf7807d5a46d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Ubuntu-M.ttf using Guid(da82c1d3770b24440aaf7807d5a46d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7510b799d0490866f9e684cc05d60243') in 0.018706 seconds
-  Import took 0.022912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/3) Dubois Anaglyphs.mat
-  artifactKey: Guid(3ab1d100715d72048af0c6925e1c66db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Anaglyph/PresetMaterials/3) Dubois Anaglyphs.mat using Guid(3ab1d100715d72048af0c6925e1c66db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fe7946ae6c4146a199bd23db22dc67') in 0.012244 seconds
-  Import took 0.015896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Fonts/Ubuntu-L SDF.asset
-  artifactKey: Guid(20960b7bb60ad774ca3ba762a0382ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Ubuntu-L SDF.asset using Guid(20960b7bb60ad774ca3ba762a0382ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b35c2313752c4efe3d43207e6a1314') in 0.018242 seconds
-  Import took 0.020454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/HoloUnitySDK/Resources/Font/Font002/nulshock bd.ttf
-  artifactKey: Guid(ec095411d004b8a489df16df6a0854b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Font/Font002/nulshock bd.ttf using Guid(ec095411d004b8a489df16df6a0854b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19df12f9df50673cff5d9dd9134a8d9') in 0.012645 seconds
-  Import took 0.014980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/HoloUnitySDK/Resources/Font/Font001/Exo-ExtraLight SDF.asset
-  artifactKey: Guid(7d30e7cc3ad529a4f88167b8bb15575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Font/Font001/Exo-ExtraLight SDF.asset using Guid(7d30e7cc3ad529a4f88167b8bb15575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa94822c6c3ef028837cc3976e3a7b6') in 0.015438 seconds
-  Import took 0.017777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/HoloUnitySDK/Resources/Font/Font002/nulshock bd SDF.asset
-  artifactKey: Guid(ae3ac178036377e49a0779c18a801142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Font/Font002/nulshock bd SDF.asset using Guid(ae3ac178036377e49a0779c18a801142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84091e444a56c2a2934477627a0bc184') in 0.018453 seconds
-  Import took 0.020749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Materials/poison.mat
-  artifactKey: Guid(0a1297047c25e7d4ca2de7c18319f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/poison.mat using Guid(0a1297047c25e7d4ca2de7c18319f68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd533c43329d4003814123cc30ce8f2') in 0.010519 seconds
-  Import took 0.012951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.715366 seconds.
-  path: Assets/HoloUnitySDK/Resources/ShaderExample/1_box4_half.png
-  artifactKey: Guid(4cc57f86e6c27b04b9d997e0fb0b3d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ShaderExample/1_box4_half.png using Guid(4cc57f86e6c27b04b9d997e0fb0b3d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42964cdee13a9ae1ee22b3045a16201') in 0.043950 seconds
-  Import took 0.046496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/HoloUnitySDK/Resources/ShaderExample/3_box4_dubois.png
-  artifactKey: Guid(adb90a682fe5eb2489c8e0331167bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ShaderExample/3_box4_dubois.png using Guid(adb90a682fe5eb2489c8e0331167bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb22fd71a6adc698a317f669c93716e3') in 0.038840 seconds
-  Import took 0.041058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Horizontal Selector Header.png
-  artifactKey: Guid(1d50f0545bfd1304eace331e06cb2cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Horizontal Selector Header.png using Guid(1d50f0545bfd1304eace331e06cb2cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d797531070c1b60251c7ca019c3f7c0') in 0.028519 seconds
-  Import took 0.030738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Media/Crop.png
-  artifactKey: Guid(4a4cdd1b816f2c14e8f99597ac619de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Media/Crop.png using Guid(4a4cdd1b816f2c14e8f99597ac619de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c096c65e2fb298795604e696b985811') in 0.018181 seconds
-  Import took 0.020538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Icon.png
-  artifactKey: Guid(3ed3bfb48269e2646b4dc2130299c956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Icon.png using Guid(3ed3bfb48269e2646b4dc2130299c956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9451e8097ea17fc75cd5e4daed17c9d5') in 0.029321 seconds
-  Import took 0.031792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/HoloUnitySDK/Resources/ShaderExample/6_box_sbs.png
-  artifactKey: Guid(c602f10913fec7142bd744b5442bf608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ShaderExample/6_box_sbs.png using Guid(c602f10913fec7142bd744b5442bf608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7d027126705fa8cbe5c5ffc3934aaa') in 0.015419 seconds
-  Import took 0.017704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Basic/Basic Filled (200ppu).png
-  artifactKey: Guid(f03f625cc7127f244a2f4da835b92720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Basic/Basic Filled (200ppu).png using Guid(f03f625cc7127f244a2f4da835b92720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec58c586ffe087bf91d6957a3395053') in 0.013295 seconds
-  Import took 0.015875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/DisplaySize.png
-  artifactKey: Guid(d7a35837cc8d0cc46a8024b68cb5a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/DisplaySize.png using Guid(d7a35837cc8d0cc46a8024b68cb5a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b503ca1dcffe1c248f6c29247c54802') in 0.015766 seconds
-  Import took 0.018104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Toggle.png
-  artifactKey: Guid(b0f85f7da5042c0448a526d5ecacbfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Toggle.png using Guid(b0f85f7da5042c0448a526d5ecacbfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd975de60f35e00efebb01b360c489a6f') in 0.014183 seconds
-  Import took 0.017076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Help.png
-  artifactKey: Guid(49702278c78c41648bcf38cd04605d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Help.png using Guid(49702278c78c41648bcf38cd04605d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69125aa2ddf2d171d4e21a926c484df') in 0.013986 seconds
-  Import took 0.016415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/FaceTracking.png
-  artifactKey: Guid(557d8a4027741094e93ea8e833a2099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/FaceTracking.png using Guid(557d8a4027741094e93ea8e833a2099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0d6ba7e3f989f956abf022ebe0d716') in 0.013116 seconds
-  Import took 0.015620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Check Bold.png
-  artifactKey: Guid(5d08ed2465c5c104c9c915959d69b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Check Bold.png using Guid(5d08ed2465c5c104c9c915959d69b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777a624577c5aaf5d74737b4da03d85b') in 0.014247 seconds
-  Import took 0.016650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Cancel.png
-  artifactKey: Guid(88dca061d041a2a4596563e6a38f66c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Cancel.png using Guid(88dca061d041a2a4596563e6a38f66c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80513b28229629d0562eb25dcc924246') in 0.018843 seconds
-  Import took 0.021247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Slider.png
-  artifactKey: Guid(b5c20faaa6c0f514092673e609258886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Slider.png using Guid(b5c20faaa6c0f514092673e609258886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239bbb770d9d83853a516ece008dd4ca') in 0.038462 seconds
-  Import took 0.040547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/HoloUnitySDK/Resources/ShaderExample/7_box_2d.png
-  artifactKey: Guid(d006639c86fa8d64ba1d2043b95c8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ShaderExample/7_box_2d.png using Guid(d006639c86fa8d64ba1d2043b95c8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2d33e0b085e3794142cbe906410943') in 0.010359 seconds
-  Import took 0.012761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Hamburger Menu.png
-  artifactKey: Guid(06b5daef910dccf48a3afedf7955c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Hamburger Menu.png using Guid(06b5daef910dccf48a3afedf7955c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bc9cb13c26b86e44d0af28f8b02269') in 0.043695 seconds
-  Import took 0.046352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Indicator Normal.png
-  artifactKey: Guid(04dc2978e2ef8a04e8f7f7ba0f48d039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Indicator Normal.png using Guid(04dc2978e2ef8a04e8f7f7ba0f48d039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a9cc22a267d4d9c468d4c3b64caddd') in 0.029547 seconds
-  Import took 0.031582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/HoloUnitySDK/Resources/ShaderExample/4_box4_true.png
-  artifactKey: Guid(cc6884f8e3b7d5a41a865b6249070b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ShaderExample/4_box4_true.png using Guid(cc6884f8e3b7d5a41a865b6249070b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69ab204f9bcd69c9f568159a720401d') in 0.009329 seconds
-  Import took 0.011722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/Alert.png
-  artifactKey: Guid(32a6732d17222cd499141129a9de0a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/Alert.png using Guid(32a6732d17222cd499141129a9de0a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5c78619ea0a616e85a106263f856d9') in 0.022946 seconds
-  Import took 0.025014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Context Menu.png
-  artifactKey: Guid(cceded5b1d0834e48849fb152ac8e53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Context Menu.png using Guid(cceded5b1d0834e48849fb152ac8e53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20c900bb9658a5c7ddfdac86aae26e1') in 0.033101 seconds
-  Import took 0.035432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Animated Icon.png
-  artifactKey: Guid(ef4e17713b0753141b51a25d14d26bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Animated Icon.png using Guid(ef4e17713b0753141b51a25d14d26bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992a7bced095600bd31b495b24821095') in 0.011540 seconds
-  Import took 0.013957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Media/Camera.png
-  artifactKey: Guid(029e049b7b633af4089920f10dbf69d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Media/Camera.png using Guid(029e049b7b633af4089920f10dbf69d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f00c57329f2f251dd8222aecfcdaec7') in 0.011007 seconds
-  Import took 0.013119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Circles/Circle Filled - x256.png
-  artifactKey: Guid(c26a820b2129e2f4eb122efd27df5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Circles/Circle Filled - x256.png using Guid(c26a820b2129e2f4eb122efd27df5339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ee1708928e5275e523a3106eb50323') in 0.009522 seconds
-  Import took 0.012048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Arrow Bold R.png
-  artifactKey: Guid(49006d357f4e159429fcdfd2c1b9db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Arrow Bold R.png using Guid(49006d357f4e159429fcdfd2c1b9db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b421bb63d4d945620a37f452b712f9') in 0.010884 seconds
-  Import took 0.013250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Common/Eye.png
-  artifactKey: Guid(e07717fc47a510742ac0b11da205b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Common/Eye.png using Guid(e07717fc47a510742ac0b11da205b050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c77d1f399d124e429d72b7718a49654') in 0.027170 seconds
-  Import took 0.029816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Horizontal Selector.png
-  artifactKey: Guid(7a33180745301ca4b903e0c6e51cfeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Horizontal Selector.png using Guid(7a33180745301ca4b903e0c6e51cfeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc89797c2367ac10f3cffb6728cb5de9') in 0.038018 seconds
-  Import took 0.040055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Hamburger Menu Header.png
-  artifactKey: Guid(a210d73b02ce1c84c9cc4da4a09e22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Hamburger Menu Header.png using Guid(a210d73b02ce1c84c9cc4da4a09e22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7930185488266617a8b06ca5b932e963') in 0.034655 seconds
-  Import took 0.036754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor UI Manager.png
-  artifactKey: Guid(f66c4aa44c09b6a42a2b5b9f9334d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor UI Manager.png using Guid(f66c4aa44c09b6a42a2b5b9f9334d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c438ed2b372a9161b685d31fb87948') in 0.030187 seconds
-  Import took 0.032240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Expand.png
-  artifactKey: Guid(8dcd5f373cd25944eb819fc6795f9dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Expand.png using Guid(8dcd5f373cd25944eb819fc6795f9dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7cafdb7c69c85d7f907a8ff4372e69') in 0.011309 seconds
-  Import took 0.013412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Switch.png
-  artifactKey: Guid(1de3e885959f3b84f9f25beca3a9503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Switch.png using Guid(1de3e885959f3b84f9f25beca3a9503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039fe7b9b447938f1ade3958a10bf914') in 0.035915 seconds
-  Import took 0.038245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Scroll Bar.png
-  artifactKey: Guid(16b19dcc639397640a47dc64b98d1135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Scroll Bar.png using Guid(16b19dcc639397640a47dc64b98d1135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e14e23bd504c03115ebb37e1dc9af79') in 0.043058 seconds
-  Import took 0.045444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/DesktopAR.png
-  artifactKey: Guid(12c6c56a47bfbf643a329cc1d8bc7af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/DesktopAR.png using Guid(12c6c56a47bfbf643a329cc1d8bc7af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ec7eff390427082e7686aafb9fbe53') in 0.015556 seconds
-  Import took 0.017622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/HoloUnitySDK/Resources/ShaderExample/5_box4_color.png
-  artifactKey: Guid(8f83cd55c53e63e4086b4f014ddad507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ShaderExample/5_box4_color.png using Guid(8f83cd55c53e63e4086b4f014ddad507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd679fe03e8c47be2147ec5fc40ae632a') in 0.009303 seconds
-  Import took 0.011478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Modal Window.png
-  artifactKey: Guid(443b1643bec077e478f70a7a0fd1adcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Modal Window.png using Guid(443b1643bec077e478f70a7a0fd1adcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cb3ccfb18de45f27b4de3f8721a307') in 0.038624 seconds
-  Import took 0.040737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Input Field.png
-  artifactKey: Guid(e956b4f7a85075c43a444a9f05cc765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Input Field.png using Guid(e956b4f7a85075c43a444a9f05cc765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd04917415951ab08d0a905088cfc3bd') in 0.022072 seconds
-  Import took 0.024425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/CameraPositionAlert.png
-  artifactKey: Guid(5cfe5d7d32b08b641b6787c5e7ec313f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/CameraPositionAlert.png using Guid(5cfe5d7d32b08b641b6787c5e7ec313f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b439d21a6546ad7037681abf527ba66') in 0.011084 seconds
-  Import took 0.013241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Dropdown.png
-  artifactKey: Guid(0a39a4452fd810640afd1be6e700edee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Dropdown.png using Guid(0a39a4452fd810640afd1be6e700edee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d13e383a404d2256f59cfe8b986ae8') in 0.015580 seconds
-  Import took 0.017738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Window Manager.png
-  artifactKey: Guid(6cf11c0849502024eaa15de7d842e9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Window Manager.png using Guid(6cf11c0849502024eaa15de7d842e9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a70480cda795fe789fa80efba5eb5e') in 0.011189 seconds
-  Import took 0.013831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Dropdown Header.png
-  artifactKey: Guid(3a919d35d10429545a9eef5fdc3bc054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Dropdown Header.png using Guid(3a919d35d10429545a9eef5fdc3bc054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ce44d268f274aab72c628d8af2c24b') in 0.015082 seconds
-  Import took 0.017871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Circles/Circle Outline - Stroke 8px.png
-  artifactKey: Guid(9421aca318e009a4792d1bb95480e2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Circles/Circle Outline - Stroke 8px.png using Guid(9421aca318e009a4792d1bb95480e2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ea6c9c00cc0ec5e3d3724900df8cc8') in 0.019655 seconds
-  Import took 0.022388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/HoloUnitySDK/Resources/ShaderExample/2_box4_op.png
-  artifactKey: Guid(4b40f6a53dfb14d449224b3cd46c23c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ShaderExample/2_box4_op.png using Guid(4b40f6a53dfb14d449224b3cd46c23c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69ec1a1a25cd7cee7ccca70a0168b84') in 0.011762 seconds
-  Import took 0.014451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Button Header.png
-  artifactKey: Guid(e1d870045d1f38449987a3d36e42aea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Button Header.png using Guid(e1d870045d1f38449987a3d36e42aea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0201e919d27b11d5172c23f3b6460b0') in 0.033126 seconds
-  Import took 0.035410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/HoloUnitySDK/Resources/ShaderExample/1_box4_half.png
-  artifactKey: Guid(4cc57f86e6c27b04b9d997e0fb0b3d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ShaderExample/1_box4_half.png using Guid(4cc57f86e6c27b04b9d997e0fb0b3d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42964cdee13a9ae1ee22b3045a16201') in 0.009132 seconds
-  Import took 0.011487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Button.png
-  artifactKey: Guid(98d001ce6b3b53242911dcc3d1415f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Button.png using Guid(98d001ce6b3b53242911dcc3d1415f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4f4836d322499f97f077103c7ead88') in 0.011472 seconds
-  Import took 0.013882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Progress Bar.png
-  artifactKey: Guid(be8d03bb95afe0641976d654781e9e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Progress Bar.png using Guid(be8d03bb95afe0641976d654781e9e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda67a237c573889c9ce4a75d3bbefd3') in 0.016306 seconds
-  Import took 0.018571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/GlassesAlert.png
-  artifactKey: Guid(492cae9942071ba4eae945a9f21821d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/GlassesAlert.png using Guid(492cae9942071ba4eae945a9f21821d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8984c9e13828061c3be6b486879e1bde') in 0.014181 seconds
-  Import took 0.016425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Horizontal Shadow.png
-  artifactKey: Guid(390f1c7c5c2f9714d8458c01651acdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Horizontal Shadow.png using Guid(390f1c7c5c2f9714d8458c01651acdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7516fd2416f8c995612e42465001adda') in 0.016279 seconds
-  Import took 0.018395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Gradient.png
-  artifactKey: Guid(1bead13cbb39ba146a2b32f78920b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Gradient.png using Guid(1bead13cbb39ba146a2b32f78920b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695fdfbfbecc46a3520455263a72e3a8') in 0.010435 seconds
-  Import took 0.012718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Notification.png
-  artifactKey: Guid(adf3c8361dd31e1448483775ea241c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Notification.png using Guid(adf3c8361dd31e1448483775ea241c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8d4254b9f094e64b742b4c86267df6') in 0.016018 seconds
-  Import took 0.018446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Context Menu Header.png
-  artifactKey: Guid(658627e6354c033459fc8f0892c59de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Context Menu Header.png using Guid(658627e6354c033459fc8f0892c59de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fc88a4dfe6872925197176192ce4f6') in 0.027289 seconds
-  Import took 0.030264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Tooltip.png
-  artifactKey: Guid(146ad7c4429fc764088d2a5139a2537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Editor Tooltip.png using Guid(146ad7c4429fc764088d2a5139a2537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff68011e45172257059274e24b2dc454') in 0.023715 seconds
-  Import took 0.025812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Gradient Header.png
-  artifactKey: Guid(cdccb4a4a9b4fa34192ef518f14b5cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Gradient Header.png using Guid(cdccb4a4a9b4fa34192ef518f14b5cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59abcc84996e04bf435b589ad056e7d3') in 0.041127 seconds
-  Import took 0.043407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Indicator Active.png
-  artifactKey: Guid(d085f7f65fa64f54bb0b7439943ef8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Indicator Active.png using Guid(d085f7f65fa64f54bb0b7439943ef8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b1a5b08eae8ccca5c21a6a1e3c4f88') in 0.027053 seconds
-  Import took 0.029591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.276314 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/IPDAlert.png
-  artifactKey: Guid(aa0593f28e29a974fbe7a511485c5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/IPDAlert.png using Guid(aa0593f28e29a974fbe7a511485c5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd0ab0a63129c5c7724f06b0f8ca830') in 0.022712 seconds
-  Import took 0.026736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Items Normal.png
-  artifactKey: Guid(b5f4c39901408204aa2c59639df0432e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Items Normal.png using Guid(b5f4c39901408204aa2c59639df0432e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a474c384cc7e06b7a85289c8c24f68db') in 0.019937 seconds
-  Import took 0.022992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Minus.png
-  artifactKey: Guid(9964955250a501b49ad0d9df1c632e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Minus.png using Guid(9964955250a501b49ad0d9df1c632e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5662f8fb39a93140d6f33acf5e01fc4b') in 0.012314 seconds
-  Import took 0.014613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Items Active.png
-  artifactKey: Guid(5cdeb515d6f83b34c9f441349d56525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Items Active.png using Guid(5cdeb515d6f83b34c9f441349d56525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfcd5773e6a108b67ae14e6712a0ff1') in 0.033024 seconds
-  Import took 0.035567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/IPDAlert.png
-  artifactKey: Guid(aa0593f28e29a974fbe7a511485c5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/IPDAlert.png using Guid(aa0593f28e29a974fbe7a511485c5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd0ab0a63129c5c7724f06b0f8ca830') in 0.011076 seconds
-  Import took 0.013536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Modal Window Header.png
-  artifactKey: Guid(5abb6844c7b16194d8f1fa254deb72b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Modal Window Header.png using Guid(5abb6844c7b16194d8f1fa254deb72b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12931f3d034058db0f13a0f0a9f96d08') in 0.019200 seconds
-  Import took 0.021640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043993 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Resources/Editor/MUIP Editor Dark.png
-  artifactKey: Guid(7c235d0fbe0f2464cabb3ebb1f7fb5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Resources/Editor/MUIP Editor Dark.png using Guid(7c235d0fbe0f2464cabb3ebb1f7fb5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145007eff62eeeeec1d4ef001511146f') in 0.046178 seconds
-  Import took 0.048956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Notification Header.png
-  artifactKey: Guid(4d392c02f8f90174a9392ac2fe362adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Notification Header.png using Guid(4d392c02f8f90174a9392ac2fe362adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105c06143abd9afea9fb342bce38508e') in 0.015919 seconds
-  Import took 0.017987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Resources/Editor/MUIP Editor Dark.png
-  artifactKey: Guid(7c235d0fbe0f2464cabb3ebb1f7fb5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Resources/Editor/MUIP Editor Dark.png using Guid(7c235d0fbe0f2464cabb3ebb1f7fb5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145007eff62eeeeec1d4ef001511146f') in 0.005839 seconds
-  Import took 0.008240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Power.png
-  artifactKey: Guid(a8cc5f0db692cb24db144d85c01b6838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Power.png using Guid(a8cc5f0db692cb24db144d85c01b6838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0138f255411ff78f5953193038ced615') in 0.012427 seconds
-  Import took 0.014486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Resources/Editor/MUIP Editor Light.png
-  artifactKey: Guid(211e0fc65fd3ff147b04f622187dd2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Resources/Editor/MUIP Editor Light.png using Guid(211e0fc65fd3ff147b04f622187dd2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300f69b1f58122a62b591a65a955f6bb') in 0.026576 seconds
-  Import took 0.028706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Resources Active.png
-  artifactKey: Guid(36de84e0dad7a2e41859e006f6815a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Resources Active.png using Guid(36de84e0dad7a2e41859e006f6815a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a1a14dc569d4373a76a99acef62b4e') in 0.043189 seconds
-  Import took 0.045701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Rounded Circle Shadow (200ppu).png
-  artifactKey: Guid(53376d46aa93495498e77d97f3dd13b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Rounded Circle Shadow (200ppu).png using Guid(53376d46aa93495498e77d97f3dd13b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65a58855cffe9ce99fbee2c02aeb79e') in 0.048948 seconds
-  Import took 0.051360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Rounded Circle Shadow (150ppu).png
-  artifactKey: Guid(0755a77d5bd80d94eaba57a2d5d0f55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Rounded Circle Shadow (150ppu).png using Guid(0755a77d5bd80d94eaba57a2d5d0f55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19bc5ca8d945de16a893fcc96f33c87') in 0.016082 seconds
-  Import took 0.018076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Rounded/Rounded Circle (250ppu).png
-  artifactKey: Guid(b1e2bb5a32fee96498075a860def4696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Rounded/Rounded Circle (250ppu).png using Guid(b1e2bb5a32fee96498075a860def4696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66c12f1cb5c5f11d7abcd829e0d92e2') in 0.017615 seconds
-  Import took 0.022098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Settings Normal.png
-  artifactKey: Guid(36444c258518c6e4789a631caa2add79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Settings Normal.png using Guid(36444c258518c6e4789a631caa2add79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99be9fc24f498f5fbacbdc2b0ce7925a') in 0.025230 seconds
-  Import took 0.027646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Device/Screen.png
-  artifactKey: Guid(2ea2a410821d1e74a8b58fd3ae84d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Device/Screen.png using Guid(2ea2a410821d1e74a8b58fd3ae84d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fe3074b39a50503fe158a6794f0f4b') in 0.009800 seconds
-  Import took 0.012057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Square Shadow (200ppu).png
-  artifactKey: Guid(5a2cc1793ca8c1e4381df95290d5022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Square Shadow (200ppu).png using Guid(5a2cc1793ca8c1e4381df95290d5022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8587389f41833864d19b8a419883b5dd') in 0.016652 seconds
-  Import took 0.019046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Switch Off.png
-  artifactKey: Guid(e6d15d43abddc8f47bb2f2c6f5a6911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Switch Off.png using Guid(e6d15d43abddc8f47bb2f2c6f5a6911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66599bcfe5fb0c0087fb18b770904c9') in 0.016314 seconds
-  Import took 0.018531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Tooltip Header.png
-  artifactKey: Guid(ad1ea93aeeaddf8428bc6bd4e4c2252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Tooltip Header.png using Guid(ad1ea93aeeaddf8428bc6bd4e4c2252e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f065829cb9fd97249fadb7c3fb8a8f80') in 0.022435 seconds
-  Import took 0.024610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Settings Active.png
-  artifactKey: Guid(8d2f94ec7a4000d41b3187c2226e3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Settings Active.png using Guid(8d2f94ec7a4000d41b3187c2226e3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153df21765ce8e057189681a2f2b78b2') in 0.019460 seconds
-  Import took 0.021727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Slider Header.png
-  artifactKey: Guid(87efada1284494f41bc652be034bc7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Slider Header.png using Guid(87efada1284494f41bc652be034bc7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc6e2971d5f59fe0b425e589743faab') in 0.028653 seconds
-  Import took 0.031391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Switch On.png
-  artifactKey: Guid(ffec42baa7af925408945babbfba5a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Switch On.png using Guid(ffec42baa7af925408945babbfba5a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bf3b2876ea6f470447e4e0ec8df8c7') in 0.013806 seconds
-  Import took 0.016848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Common/Settings.png
-  artifactKey: Guid(a81b811d419055c43a7ddc04ce938fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Common/Settings.png using Guid(a81b811d419055c43a7ddc04ce938fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fdceb5d6488785b4637351a0040afc') in 0.017507 seconds
-  Import took 0.020000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Saving Normal.png
-  artifactKey: Guid(7735db44face0204f8f38edd6fb10564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Saving Normal.png using Guid(7735db44face0204f8f38edd6fb10564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e12b223eb342a6f8d4143254d3998e') in 0.036754 seconds
-  Import took 0.038901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/StereoImage.png
-  artifactKey: Guid(00e60c6f84985be4cb02f1eac7303b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/StereoImage.png using Guid(00e60c6f84985be4cb02f1eac7303b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4968cd1305cc0932fb359068de8ec5bf') in 0.011794 seconds
-  Import took 0.013945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Rounded Circle Shadow (400ppu).png
-  artifactKey: Guid(446fd45c600b6e84c9b7d1b9982cc3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Rounded Circle Shadow (400ppu).png using Guid(446fd45c600b6e84c9b7d1b9982cc3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f249f01c05622b645dbe7280646450') in 0.016662 seconds
-  Import took 0.019111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Switch Off Dark.png
-  artifactKey: Guid(c72f1ae5731c1034887c0be3dfd557a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Switch Off Dark.png using Guid(c72f1ae5731c1034887c0be3dfd557a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cd0b415d1bb4565698ac0de2fa54d6') in 0.014471 seconds
-  Import took 0.016960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Resources Normal.png
-  artifactKey: Guid(e8a9624a10818bd4eb0b2cee5ad037dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Resources Normal.png using Guid(e8a9624a10818bd4eb0b2cee5ad037dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54e212b3a90cb32160a254abf51e0df') in 0.017332 seconds
-  Import took 0.019826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Switch Header.png
-  artifactKey: Guid(8be374caa7a2a05469c907d36c380577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Switch Header.png using Guid(8be374caa7a2a05469c907d36c380577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3058e53a19d2bdd3cd0a21173fb0847') in 0.015351 seconds
-  Import took 0.018043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Rounded/Rounded Circle (900ppu).png
-  artifactKey: Guid(d932c376d1c47bd46acb782ac4161de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Border/Rounded/Rounded Circle (900ppu).png using Guid(d932c376d1c47bd46acb782ac4161de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc871fa56ecd7cca2e960b5f4d185e5') in 0.010618 seconds
-  Import took 0.012882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Media/Photo.png
-  artifactKey: Guid(27f889dcba1d16e4382107e471321a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Media/Photo.png using Guid(27f889dcba1d16e4382107e471321a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f153ced0f5a0934ca0ef7aaddfd9c9') in 0.008854 seconds
-  Import took 0.011155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Saving Active.png
-  artifactKey: Guid(ffd58b45c9173224a8897582a6b42e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Saving Active.png using Guid(ffd58b45c9173224a8897582a6b42e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8aaa1edfa3267e13e205d2f200d29a') in 0.013859 seconds
-  Import took 0.016027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Plus.png
-  artifactKey: Guid(66995b6b61aed864daa956ae255d7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Plus.png using Guid(66995b6b61aed864daa956ae255d7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815def3e41e4fcb2e7077c7b52b065f9') in 0.015418 seconds
-  Import took 0.018483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Progress Bar Header.png
-  artifactKey: Guid(fddee5c1bad0d8148a8d5dd9f95f2afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Progress Bar Header.png using Guid(fddee5c1bad0d8148a8d5dd9f95f2afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46237c93b5b5fe6a6d6c5f61de6bd215') in 0.020199 seconds
-  Import took 0.023525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Plus.png
-  artifactKey: Guid(66995b6b61aed864daa956ae255d7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Navigation/Plus.png using Guid(66995b6b61aed864daa956ae255d7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815def3e41e4fcb2e7077c7b52b065f9') in 0.010518 seconds
-  Import took 0.012765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005113 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Progress Bar Header.png
-  artifactKey: Guid(fddee5c1bad0d8148a8d5dd9f95f2afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Progress Bar Header.png using Guid(fddee5c1bad0d8148a8d5dd9f95f2afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46237c93b5b5fe6a6d6c5f61de6bd215') in 0.005137 seconds
-  Import took 0.007523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106321 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Common/User.png
-  artifactKey: Guid(54480c8535d545149b22ee8bfcaad6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Common/User.png using Guid(54480c8535d545149b22ee8bfcaad6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11aba9f6b489dcfa1df6e1e7e3b7ae3') in 0.009661 seconds
-  Import took 0.012370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Vertical Shadow.png
-  artifactKey: Guid(4588d5e6aeea92d4b86bd1e976c99baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Vertical Shadow.png using Guid(4588d5e6aeea92d4b86bd1e976c99baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1c06f33b84033129f3bc23bbfd9f17') in 0.010864 seconds
-  Import took 0.013372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/WebcamAlert.png
-  artifactKey: Guid(7449dcb6cb76b9a4aa66cf7d755ebbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/Icon/Wizard Setting/WebcamAlert.png using Guid(7449dcb6cb76b9a4aa66cf7d755ebbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe63100c60408cc501a97e612d245938') in 0.010788 seconds
-  Import took 0.013188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Common/User.png
-  artifactKey: Guid(54480c8535d545149b22ee8bfcaad6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Icon/Common/User.png using Guid(54480c8535d545149b22ee8bfcaad6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11aba9f6b489dcfa1df6e1e7e3b7ae3') in 0.016437 seconds
-  Import took 0.020143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Window Manager Header.png
-  artifactKey: Guid(272e917ee31ed1b4a90e7ea53131b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Window Manager Header.png using Guid(272e917ee31ed1b4a90e7ea53131b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f39014532d70a30930d265845ce07e6') in 0.017652 seconds
-  Import took 0.020349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Vertical Shadow.png
-  artifactKey: Guid(4588d5e6aeea92d4b86bd1e976c99baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Textures/Shadow/Vertical Shadow.png using Guid(4588d5e6aeea92d4b86bd1e976c99baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1c06f33b84033129f3bc23bbfd9f17') in 0.005931 seconds
-  Import took 0.007988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010795 seconds.
-  path: Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Window Manager Header.png
-  artifactKey: Guid(272e917ee31ed1b4a90e7ea53131b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoloUnitySDK/Resources/ExternalAssets/Modern UI Pack/Editor/Icons/Window Manager Header.png using Guid(272e917ee31ed1b4a90e7ea53131b352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f39014532d70a30930d265845ce07e6') in 0.009465 seconds
-  Import took 0.011937 seconds .
+  Time since last request: 9.738440 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad17476fff5a9ff5f2da2fea53c04764') in 0.019992 seconds
+  Import took 0.022562 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002535 seconds.
+Registered in 0.002231 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
+- Completed reload, in  0.787 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.8 MB.
-System memory in use after: 71.9 MB.
+System memory in use before: 71.2 MB.
+System memory in use after: 71.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 2.103900 ms (FindLiveObjects: 0.209200 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.796400 ms  DeleteObjects: 0.063400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 1.832600 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.518700 ms  DeleteObjects: 0.062800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 289.990171 seconds.
+  path: Assets/Animators/Food.controller
+  artifactKey: Guid(11f022f2d91b803438cdfe633e5d0b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/Food.controller using Guid(11f022f2d91b803438cdfe633e5d0b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b256c4d77c090b506759806a043bd29') in 0.011691 seconds
+  Import took 0.014166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.259365 seconds.
+  path: Assets/Animations/MovingFood.anim
+  artifactKey: Guid(ce2f6bd521c30a645ba059962ad175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/MovingFood.anim using Guid(ce2f6bd521c30a645ba059962ad175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abf2c0824e46827652c707ff33952e9') in 0.006857 seconds
+  Import took 0.009316 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 2.311100 ms (FindLiveObjects: 0.135600 ms CreateObjectMapping: 0.029500 ms MarkObjects: 2.051700 ms  DeleteObjects: 0.093500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.437014 seconds.
+  path: Assets/Animations/ScalingFood.anim
+  artifactKey: Guid(ce2f6bd521c30a645ba059962ad175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ScalingFood.anim using Guid(ce2f6bd521c30a645ba059962ad175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dab9d339aa50d82ae890aac7d474b87') in 0.017309 seconds
+  Import took 0.019998 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002177 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 1.736900 ms (FindLiveObjects: 0.147400 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.486400 ms  DeleteObjects: 0.070600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.909839 seconds.
+  path: Assets/Animations/ScalingFood.anim
+  artifactKey: Guid(ce2f6bd521c30a645ba059962ad175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ScalingFood.anim using Guid(ce2f6bd521c30a645ba059962ad175f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd223a99eeca8199e416ae9d2bd742b1d') in 0.013787 seconds
+  Import took 0.016120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.236741 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(cc9c3b4659e207145b621ea538b03f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c87ac0a1656c2b293062cef58fef2a') in 0.039515 seconds
+  Import took 0.042486 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 1.656700 ms (FindLiveObjects: 0.131600 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.424400 ms  DeleteObjects: 0.061800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.809200 ms (FindLiveObjects: 0.167400 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.536900 ms  DeleteObjects: 0.070100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002146 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 1.632200 ms (FindLiveObjects: 0.133100 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.408500 ms  DeleteObjects: 0.059400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 1.678500 ms (FindLiveObjects: 0.144400 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.440200 ms  DeleteObjects: 0.061200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 1.741400 ms (FindLiveObjects: 0.178200 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.461000 ms  DeleteObjects: 0.068700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 1.698600 ms (FindLiveObjects: 0.143200 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.455700 ms  DeleteObjects: 0.068800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
