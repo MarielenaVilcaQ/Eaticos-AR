@@ -56,4 +56,13 @@ public class World : MonoBehaviour
             Instantiate(_poisonPrefab, transform.position, Quaternion.Euler(rotationEuler), transform);
         }
     }
+    public void NewPoison(Transform food)
+    {
+        if (_gameManager.maxFood > transform.childCount)
+        {
+            var rotationEuler = new Vector3(food.rotation.eulerAngles.x + 90, food.rotation.eulerAngles.y + 90, 0);
+            Instantiate(_poisonPrefab, transform.position, Quaternion.Euler(rotationEuler), transform);
+        }
+    }
+
 }

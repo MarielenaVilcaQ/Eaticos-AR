@@ -79,12 +79,12 @@ public class GameManager : MonoBehaviour
         RestartGame();
     }
 
-    public void IncreaseDifficulty()
+    public void IncreaseDifficulty(Transform food)
     {
         _player.AddSpeed(speedFood);
         if (_points % 5 == 0)
         {
-            _world.NewPoison();
+            _world.NewPoison(food);
         }
         _world.NewFood();
     }

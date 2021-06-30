@@ -51,20 +51,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!64 &6178741535862522542
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6448632816030938760}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8033230592578451282, guid: ec6a791e9c6338d47a7fbeb5b6883c9d, type: 3}
 --- !u!114 &1066842860653749055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,6 +65,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 822118900846371422}
   value: 1
+--- !u!135 &6052789329963029002
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6448632816030938760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.8
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8853824446111253701
 GameObject:
   m_ObjectHideFlags: 0

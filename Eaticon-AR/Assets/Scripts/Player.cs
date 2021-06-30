@@ -57,12 +57,12 @@ public class Player : MonoBehaviour
             var food = other.transform.GetComponent<Food>();
             food.StartAnimationDestroy();
             _gameManager.AddPoints(food.value);
-            _gameManager.IncreaseDifficulty();
+            _gameManager.IncreaseDifficulty(other.transform);
         }
         if (other.tag == "Poison")
         {
             _gameManager.ActiveGameOverGUI();
-            _world.NewPoison();
+            //_world.NewPoison();
         }
         Destroy(other.transform.parent.gameObject, 1f);
     }
